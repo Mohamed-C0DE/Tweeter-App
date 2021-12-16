@@ -1,0 +1,23 @@
+nav {
+  background-color: #4056a1;
+  color: #ffffff;
+  padding: 0 1.5em;
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  font-family: Bungee, sans-serif;
+}
+.header-link {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 178px;
+  text-align: center;
+  cursor: pointer;
+}
+.fa-angle-double-down {
+  color: red;
+}
