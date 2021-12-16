@@ -1,0 +1,32 @@
+.header {
+  background-color: black;
+  padding-top: 120px;
+  height: 475px;
+  background-image: url(../images/3px-tile.png);
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  margin: 0;
+  padding-top: 7px;
+  color: ghostwhite;
+}
+img {
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+  .header {
+    width: 33%;
+    float: left;
+    margin-top: 220px;
+    padding: 0;
+    height: 345px;
+    margin-left: 38px;
+  }
+}
